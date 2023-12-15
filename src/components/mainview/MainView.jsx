@@ -5,24 +5,26 @@ export const MainView = () => {
   const [movies, setMovies] = useState([
     {
       id: 1,
-      title: "A",
-      image:
-        "",
-     director: "",
+      title: "The Dark Knight",
+      image: "",
+     director: "Christopher Nolan",
+     genre: "Action",
     },
     {
       id: 2,
-      title: "B",
+      title: "Dunkirk",
       image:
         "",
-     director: "",
+     director: "Christopher Nolan",
+     genre: "Drama"
     },
     {
       id: 3,
-      title: "C",
+      title: "Lady Bird",
       image:
         "",
-     director: "",
+     director: "Greta Gerwig",
+     genre: "Comedy",
     }
   ]);
 
